@@ -17,21 +17,6 @@
       "Hash": "85bf3bd8fa58da21a22d84fd4f4ef0a8",
       "Requirements": []
     },
-    "DummyShinytest2": {
-      "Package": "DummyShinytest2",
-      "Version": "0.0.0.9000",
-      "Source": "unknown",
-      "Hash": "96f5387e45b9f55057f689b788e13cc1",
-      "Requirements": [
-        "config",
-        "dplyr",
-        "golem",
-        "magrittr",
-        "pkgload",
-        "shiny",
-        "tibble"
-      ]
-    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.1",
