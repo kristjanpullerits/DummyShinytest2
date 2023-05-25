@@ -10,7 +10,16 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("DummyShinytest2")
+      h1("DummyShinytest2"),
+      fileInput("in_file", "upload file",
+                multiple = FALSE,
+                accept = c(
+                  "text/csv")),
+      h2("Table input"),
+      tableOutput("in_table"),
+      h2("Modified table using add_number_to_df()"),
+      tableOutput("out_table"),
+      downloadButton("download", "Download modified table"),
     )
   )
 }
